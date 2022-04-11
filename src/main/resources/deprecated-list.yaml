@@ -1,0 +1,6 @@
+my:
+  props2:
+    string-list:
+      - first string
+      - second string
+      - third string

@@ -1,0 +1,21 @@
+my:
+  props:
+    level0:
+      prop1: ttt
+  props2:
+    string-string-map:
+      key1: aaa
+      key2: bbb
+      key3: ccc
+    string-list:
+      - first string
+      - second string
+      - third string
+    enum1-enum2-map:
+      lit11: lit21
+      lit12: lit22
+      lit13: lit23
+    enum2-string-map:
+      lit21: aaa
+      lit22: bbb
+      lit23: ccc

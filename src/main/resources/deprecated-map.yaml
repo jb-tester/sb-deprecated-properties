@@ -1,0 +1,6 @@
+my:
+  props2:
+    string-string-map:
+      key1: aaa
+      key2: bbb
+      key3: ccc

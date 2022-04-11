@@ -1,0 +1,23 @@
+{
+  "properties": [
+    {
+      "name": "my.new.strlist",
+      "type": "java.lang.String",
+      "description": "Replacement for my.props2.string-list."
+    },
+    {
+      "name": "my.stringmap",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "description": "Replacement for my.props2.string-string-map."
+    },
+    {
+      "name": "my.props.maps.enums",
+      "type": "java.util.Map<com.mytests.spring.boot.deprecatedPropertiesTest.Enum1,com.mytests.spring.boot.deprecatedPropertiesTest.Enum2>",
+      "description": "Replacement for my.props2.enum-enum-map."
+    },
+    {
+      "name": "my.props.foo.buzz",
+      "type": "java.util.Map<com.mytests.spring.boot.deprecatedPropertiesTest.Enum2,java.lang.String>",
+      "description": "Replacement for my.props2.enum-string-map."
+    }
+  ] }
