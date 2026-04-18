@@ -7,14 +7,8 @@ import org.springframework.stereotype.Component;
 import java.util.List;
 import java.util.Map;
 
-/**
- * *
- * <p>Created by irina on 4/11/2022.</p>
- * <p>Project: sb-deprecated-properties</p>
- * *
- */
+
 @ConfigurationProperties("my.props2")
-@Component
 public class ConfProps2 {
 
     List<String> stringList;
