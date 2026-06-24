@@ -19,5 +19,29 @@
       "name": "my.props.foo.buzz",
       "type": "java.util.Map<com.mytests.spring.boot.deprecatedPropertiesTest.Enum2,java.lang.String>",
       "description": "Replacement for my.props2.enum-string-map."
+    },
+    {
+      "name": "json-only.deprecated.pr1",
+      "type": "java.lang.String",
+      "description": "deprecated property defined in json only.",
+      "deprecated": true,
+      "deprecation": {
+        "replacement": "json.replacement.pr1"
+      }
+    },
+    {
+      "name": "json-only.deprecated.pr2",
+      "type": "java.lang.String",
+      "description": "error-deprecated property defined in json only.",
+      "deprecated": true,
+      "deprecation": {
+        "level": "error"
+      }
+    },
+    {
+      "name": "json.replacement.pr1",
+      "type": "java.lang.String",
+      "description": "Replacement for json-only.deprecated.pr1."
+
     }
   ] }

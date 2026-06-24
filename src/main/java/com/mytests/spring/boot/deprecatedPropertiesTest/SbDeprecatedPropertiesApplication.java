@@ -32,13 +32,16 @@ public class SbDeprecatedPropertiesApplication implements CommandLineRunner {
         System.out.println(cp2.getStringList());
         System.out.println("string string map:");
         System.out.println(cp2.getStringStringMap());
-        System.out.println(environment.getProperty("my.stringmap.key1"));
-        System.out.println(environment.getProperty("my.stringmap.key2"));
-        System.out.println(environment.getProperty("my.stringmap.key3"));
+        System.out.println(environment.getProperty("my.props2.string-string-map.key1"));
+        System.out.println(environment.getProperty("my.props2.string-string-map.key2"));
+        System.out.println(environment.getProperty("my.props2.string-string-map.key3"));
         System.out.println("enum enum map: ");
         System.out.println(cp2.getEnum1Enum2Map());
         System.out.println("enum string map:");
         System.out.println(cp2.enum2StringMap);
+        System.out.println("Json-only:");
+        System.out.println(environment.getProperty("json-only.deprecated.pr1"));
+        System.out.println(environment.getProperty("json-only.deprecated.pr2"));
 
     }
 }
