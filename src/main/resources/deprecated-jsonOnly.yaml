@@ -2,3 +2,5 @@ json-only:
   deprecated:
     pr1: deprecated json-only
     pr2: error-deprecated json-only
+logging:
+  file=: foo.log
